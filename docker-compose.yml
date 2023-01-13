@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+    cosc315:
+        build:
+          context: .
+          dockerfile: Dockerfile
+        container_name: cosc315
+        restart: unless-stopped
+        volumes:
+            - .:/cosc315
+        command: "/bin/sh -c 'while :; do sleep infinity; done'"
