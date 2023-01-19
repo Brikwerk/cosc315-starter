@@ -31,6 +31,12 @@ Welcome to COSC 315! Before you start in on your assignments, try running throug
     docker exec -it cosc315 /bin/bash
     ```
 
+    If you're on **Windows**, you may need to run the following command instead:
+
+    ```bash
+    docker exec -it cosc315 //bin//bash
+    ```
+
     If successful, your terminal should display something along the lines of `root@...`
 
 4. Change your directory to the development folder mounted in the container:
