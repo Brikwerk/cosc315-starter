@@ -55,3 +55,15 @@ Welcome to COSC 315! Before you start in on your assignments, try running throug
     # You should see something like the following
     > Hello C Programming!
     ```
+
+## Troubleshooting
+
+### Error Response from Daemon: user declined directory sharing...
+
+If you encounter this error when using docker compose to boot your container on **Windows**, you need to manually add your starter code project directory to Docker for sharing.
+
+To do this, open the docker dashboard (usually openable by double clicking the system tray icon in the bottom right corner), click the settings button, click Resources -> File Sharing, and then add your directory by clicking the blue plus button. After adding your directory, click "Apply & Restart".
+
+These steps are illustrated below:
+
+![Docker_on_Windows_File_Sharing](./imgs/windows_file_sharing.png)
